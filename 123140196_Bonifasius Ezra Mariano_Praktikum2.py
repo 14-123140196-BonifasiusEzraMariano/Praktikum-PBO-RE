@@ -5,7 +5,7 @@ mahasiswa=int(input(" masukkan jumlah mahasiswa "))
 
 for i in range(mahasiswa):
     nama = input(f"Masukkan nama ke-{i+1}: ")
-    nilai = input(f"Masukkan nilai untuk {nama}: ")
+    nilai = int(input(f"Masukkan nilai untuk {nama}: "))
     data[nama] = nilai
 
 
